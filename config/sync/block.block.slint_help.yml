@@ -1,0 +1,22 @@
+uuid: 029792c0-770f-4fe5-a48e-e919a6b8ecf4
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - slint
+_core:
+  default_config_hash: NMQaQu6HRKSPFH1pqHmOhWOoC5TexVXDAqEXRJHjFAY
+id: slint_help
+theme: slint
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

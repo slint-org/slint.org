@@ -1,0 +1,25 @@
+uuid: db737f09-4578-4ee8-9d05-4f63342ccd94
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mt-subfooter-menu
+  module:
+    - system
+  theme:
+    - slint
+id: subfooter_2
+theme: slint
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:mt-subfooter-menu'
+settings:
+  id: 'system_menu_block:mt-subfooter-menu'
+  label: Subfooter
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

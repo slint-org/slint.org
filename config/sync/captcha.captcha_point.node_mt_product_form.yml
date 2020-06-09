@@ -1,0 +1,7 @@
+uuid: 811ea0d3-88a7-4cc5-8a3e-a01c6532931e
+langcode: en
+status: false
+dependencies: {  }
+formId: node_mt_product_form
+captchaType: default
+label: null

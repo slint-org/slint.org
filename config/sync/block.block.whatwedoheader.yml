@@ -1,0 +1,25 @@
+uuid: a92d6a05-0b8e-4d1e-9ebd-05aee89930b9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:784ccfc3-8985-4aa0-be56-fd61f70b3c36'
+  module:
+    - block_content
+  theme:
+    - slint
+id: whatwedoheader
+theme: slint
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:784ccfc3-8985-4aa0-be56-fd61f70b3c36'
+settings:
+  id: 'block_content:784ccfc3-8985-4aa0-be56-fd61f70b3c36'
+  label: 'What we do Header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

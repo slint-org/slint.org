@@ -1,0 +1,31 @@
+uuid: 5ffc7602-b9e6-4ba9-8884-07642e0cfb53
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.newsletter_subscription_slint
+  module:
+    - system
+    - webform
+  theme:
+    - slint
+id: webform
+theme: slint
+region: highlighted
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: newsletter_subscription_slint
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

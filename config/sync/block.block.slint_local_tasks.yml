@@ -1,0 +1,22 @@
+uuid: 9a0f1ca8-ad0d-459f-906c-66b92f650714
+langcode: en
+status: true
+dependencies:
+  theme:
+    - slint
+_core:
+  default_config_hash: 1ZSw-Cd6v7KJL92xh7RTkUpQ0fIqquu7e2RTnfl9Zv4
+id: slint_local_tasks
+theme: slint
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

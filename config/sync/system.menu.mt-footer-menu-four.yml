@@ -1,0 +1,8 @@
+uuid: 08f3e883-0559-4389-8a6c-c2ad701b7cea
+langcode: en
+status: true
+dependencies: {  }
+id: mt-footer-menu-four
+label: Blog
+description: ''
+locked: false

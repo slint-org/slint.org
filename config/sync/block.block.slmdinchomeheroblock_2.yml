@@ -1,0 +1,25 @@
+uuid: 2319c60e-db7d-4d16-9ca4-6dabd4f2deed
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_hero_block:58460b49-2055-4636-80cf-021ea7f2f2c2'
+  module:
+    - block_content
+  theme:
+    - slint
+id: slmdinchomeheroblock_2
+theme: slint
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:58460b49-2055-4636-80cf-021ea7f2f2c2'
+settings:
+  id: 'block_content:58460b49-2055-4636-80cf-021ea7f2f2c2'
+  label: 'SLMDInc Home Hero Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: dce0c91d-7fb8-49c5-850e-1fdb92252e9e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:e5fd0467-51c8-4c2c-bf2c-73f242e2abba'
+  module:
+    - block_content
+    - system
+  theme:
+    - slint
+id: backgroundimagebannertopoffrontpage
+theme: slint
+region: banner
+weight: -16
+provider: null
+plugin: 'block_content:e5fd0467-51c8-4c2c-bf2c-73f242e2abba'
+settings:
+  id: 'block_content:e5fd0467-51c8-4c2c-bf2c-73f242e2abba'
+  label: 'Background Image Banner - Top of Frontpage'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

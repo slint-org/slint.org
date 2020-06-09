@@ -1,0 +1,16 @@
+uuid: cf80cad5-4edb-46a3-9062-a97d7593445f
+langcode: en
+status: true
+dependencies:
+  module:
+    - lazy
+name: 'Raw HTML'
+format: raw_html
+weight: 0
+filters:
+  lazy_filter:
+    id: lazy_filter
+    provider: lazy
+    status: true
+    weight: 20
+    settings: {  }

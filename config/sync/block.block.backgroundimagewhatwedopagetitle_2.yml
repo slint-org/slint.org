@@ -1,0 +1,31 @@
+uuid: f621cfb1-224c-4fb2-9b0e-a9a2176a5cc1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:2895955f-83a6-4cfd-8f3e-4f5cbe8da3a5'
+  module:
+    - block_content
+    - system
+  theme:
+    - slint
+id: backgroundimagewhatwedopagetitle_2
+theme: slint
+region: banner
+weight: -14
+provider: null
+plugin: 'block_content:2895955f-83a6-4cfd-8f3e-4f5cbe8da3a5'
+settings:
+  id: 'block_content:2895955f-83a6-4cfd-8f3e-4f5cbe8da3a5'
+  label: 'Background Image - What We Do Page Title'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /what-we-do
+    negate: false
+    context_mapping: {  }

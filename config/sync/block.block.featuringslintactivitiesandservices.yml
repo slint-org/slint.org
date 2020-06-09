@@ -1,0 +1,31 @@
+uuid: 5d8f48e9-d67d-4f87-bb67-56e6ecf618c2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_detailed_feature_block:42e8e56e-a0b1-4c81-af56-1d20a373f9b8'
+  module:
+    - block_content
+    - system
+  theme:
+    - slint
+id: featuringslintactivitiesandservices
+theme: slint
+region: content_top_highlighted
+weight: -16
+provider: null
+plugin: 'block_content:42e8e56e-a0b1-4c81-af56-1d20a373f9b8'
+settings:
+  id: 'block_content:42e8e56e-a0b1-4c81-af56-1d20a373f9b8'
+  label: 'Featuring SLINT Activities and Services'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

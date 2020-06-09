@@ -1,0 +1,26 @@
+uuid: 8f924346-6e80-4dfa-a693-797bbebb38b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: all
+label: All
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  d396ec95-65f1-4457-9467-3c4acc532ccc:
+    id: node_type
+    bundles:
+      mt_album: mt_album
+      mt_canvas_page: mt_canvas_page
+      mt_product: mt_product
+      mt_showcase: mt_showcase
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d396ec95-65f1-4457-9467-3c4acc532ccc
+selection_logic: and
+weight: -5
+relationships: {  }

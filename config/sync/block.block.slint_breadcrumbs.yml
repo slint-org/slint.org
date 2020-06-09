@@ -1,0 +1,27 @@
+uuid: b58c4256-2fd4-447e-921b-73d098e22ede
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slint
+_core:
+  default_config_hash: 0Nk3WJVk82sTgVBInB8wbHHnz1Xv8Mp5F17FVluePls
+id: slint_breadcrumbs
+theme: slint
+region: system_messages
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

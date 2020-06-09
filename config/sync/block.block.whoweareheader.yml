@@ -1,0 +1,25 @@
+uuid: d1351639-63b7-4510-8b08-18862b52d893
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ad90afb3-ed16-454b-acaa-dac2ff1335ff'
+  module:
+    - block_content
+  theme:
+    - slint
+id: whoweareheader
+theme: slint
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:ad90afb3-ed16-454b-acaa-dac2ff1335ff'
+settings:
+  id: 'block_content:ad90afb3-ed16-454b-acaa-dac2ff1335ff'
+  label: 'WHO WE ARE Header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

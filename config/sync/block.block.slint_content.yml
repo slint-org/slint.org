@@ -1,0 +1,22 @@
+uuid: 49ffc21f-e8cd-4306-9457-21f0ae8fbcc4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slint
+_core:
+  default_config_hash: '-mf8D50k4NETWwt4qx_w83j7Lg8t83Dn6sfrGsOeWMI'
+id: slint_content
+theme: slint
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,114 @@
+uuid: 00fa9b28-5835-4937-9ebf-b49a73b4e1a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_frontpage_cover_block
+    - entity_browser.browser.browse_files
+    - field.field.block_content.mt_frontpage_cover_block.field_mt_fpcb_background_image
+    - field.field.block_content.mt_frontpage_cover_block.field_mt_fpcb_badge
+    - field.field.block_content.mt_frontpage_cover_block.field_mt_fpcb_block_height
+    - field.field.block_content.mt_frontpage_cover_block.field_mt_fpcb_cta_button
+    - field.field.block_content.mt_frontpage_cover_block.field_mt_fpcb_image_button
+    - field.field.block_content.mt_frontpage_cover_block.field_mt_fpcb_subtitle
+    - field.field.block_content.mt_frontpage_cover_block.field_mt_fpcb_title
+  module:
+    - entity_browser
+    - field_group
+    - link
+    - paragraphs
+third_party_settings:
+  field_group:
+    group_mt_fpcb_cta_button:
+      children:
+        - field_mt_fpcb_cta_button
+        - field_mt_fpcb_badge
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'CtA Button'
+      region: content
+id: block_content.mt_frontpage_cover_block.default
+targetEntityType: block_content
+bundle: mt_frontpage_cover_block
+mode: default
+content:
+  field_mt_fpcb_background_image:
+    type: entity_browser_file
+    weight: 5
+    region: content
+    settings:
+      entity_browser: browse_files
+      field_widget_remove: true
+      selection_mode: selection_append
+      preview_image_style: thumbnail
+      field_widget_edit: true
+      field_widget_replace: false
+      open: false
+      view_mode: default
+    third_party_settings: {  }
+  field_mt_fpcb_badge:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_mt_fpcb_block_height:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_mt_fpcb_cta_button:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_mt_fpcb_image_button:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_mt_fpcb_subtitle:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_mt_fpcb_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,24 @@
+uuid: 24ad0c0b-6cc6-4e8b-bc1c-289da941938a
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.mt_fullscreen_slide_image
+  module:
+    - crop
+name: mt_slideshow_fullscreen
+label: 'Slideshow Full Screen'
+effects:
+  cbae7618-d37f-4c08-afcc-73038c375864:
+    uuid: cbae7618-d37f-4c08-afcc-73038c375864
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mt_fullscreen_slide_image
+  bce39bb2-0ee7-463a-ac34-954f773c8e8f:
+    uuid: bce39bb2-0ee7-463a-ac34-954f773c8e8f
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: __default__

@@ -1,0 +1,25 @@
+uuid: 0566deb9-e5e9-49b2-8d27-5338a36524ec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7fc35f5c-585d-444d-b78f-07a723566e44'
+  module:
+    - block_content
+  theme:
+    - slint
+id: slintwelcomeonhome
+theme: slint
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:7fc35f5c-585d-444d-b78f-07a723566e44'
+settings:
+  id: 'block_content:7fc35f5c-585d-444d-b78f-07a723566e44'
+  label: 'SLINT Welcome on Home'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

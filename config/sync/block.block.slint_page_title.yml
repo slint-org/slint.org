@@ -1,0 +1,27 @@
+uuid: c71cfc37-be02-4264-a361-0e546795902b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slint
+_core:
+  default_config_hash: s-vx6MCX47FK_MHO3fSmNp9Cm92o-devaqyd6JogQBc
+id: slint_page_title
+theme: slint
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

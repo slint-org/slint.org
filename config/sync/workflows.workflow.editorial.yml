@@ -1,0 +1,83 @@
+uuid: f5582d02-27eb-4076-b51f-8502f4343bb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.mt_album
+    - node.type.mt_canvas_page
+    - node.type.mt_product
+    - node.type.mt_service
+    - node.type.mt_showcase
+    - node.type.mt_team_member
+    - node.type.mt_testimonial
+    - node.type.page
+  module:
+    - content_moderation
+_core:
+  default_config_hash: Ln7YAg2WXZ-5wn9ib-v9qOKFxF2YZLnwSKtX-V455hE
+id: editorial
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Archived
+      weight: 5
+      published: false
+      default_revision: true
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: -5
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 0
+  transitions:
+    archive:
+      label: Archive
+      from:
+        - published
+      to: archived
+      weight: 2
+    archived_draft:
+      label: 'Restore to Draft'
+      from:
+        - archived
+      to: draft
+      weight: 3
+    archived_published:
+      label: Restore
+      from:
+        - archived
+      to: published
+      weight: 4
+    create_new_draft:
+      label: 'Create New Draft'
+      to: draft
+      weight: 0
+      from:
+        - draft
+        - published
+    publish:
+      label: Publish
+      to: published
+      weight: 1
+      from:
+        - draft
+        - published
+  entity_types:
+    node:
+      - article
+      - mt_album
+      - mt_canvas_page
+      - mt_product
+      - mt_service
+      - mt_showcase
+      - mt_team_member
+      - mt_testimonial
+      - page
+  default_moderation_state: draft

@@ -1,0 +1,25 @@
+uuid: ce39e6f5-fb9b-4756-b3cf-a0884f2d6f53
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7282d27c-ff48-45ec-9252-7e902e59967d'
+  module:
+    - block_content
+  theme:
+    - slint
+id: whoweareheadercta
+theme: slint
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:7282d27c-ff48-45ec-9252-7e902e59967d'
+settings:
+  id: 'block_content:7282d27c-ff48-45ec-9252-7e902e59967d'
+  label: 'Who we are Header CTA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

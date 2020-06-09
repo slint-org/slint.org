@@ -1,0 +1,31 @@
+uuid: f9a91b6d-0a9f-420e-8457-da7b89c74e2c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:29480075-9d62-436e-88f6-4b508572dd31'
+  module:
+    - block_content
+    - system
+  theme:
+    - slint
+id: whatwedoheadercta_2
+theme: slint
+region: banner
+weight: -10
+provider: null
+plugin: 'block_content:29480075-9d62-436e-88f6-4b508572dd31'
+settings:
+  id: 'block_content:29480075-9d62-436e-88f6-4b508572dd31'
+  label: 'What we do Header CTA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /what-we-do
+    negate: false
+    context_mapping: {  }

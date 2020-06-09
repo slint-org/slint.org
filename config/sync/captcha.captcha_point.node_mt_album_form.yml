@@ -1,0 +1,7 @@
+uuid: 265657d9-7754-45d9-88cf-dd8b6ca16596
+langcode: en
+status: false
+dependencies: {  }
+formId: node_mt_album_form
+captchaType: default
+label: null

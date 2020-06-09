@@ -1,0 +1,25 @@
+uuid: 96b86950-ec2c-4cbe-a674-9fda3b11c9f4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c5fa4419-dec7-4de3-9f5b-dd9a70726e77'
+  module:
+    - block_content
+  theme:
+    - slint
+id: sierraleoneheadercta
+theme: slint
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:c5fa4419-dec7-4de3-9f5b-dd9a70726e77'
+settings:
+  id: 'block_content:c5fa4419-dec7-4de3-9f5b-dd9a70726e77'
+  label: 'Sierra Leone Header CTA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

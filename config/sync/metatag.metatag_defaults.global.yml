@@ -1,0 +1,18 @@
+uuid: e216600f-2469-4634-9f60-93340e05e1e4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  title: 'Sierra Leoneans in Technology |  Using our experiences to contribute to Sierra Leones economic development in the field of technology.'
+  abstract: 'We are a group of Sierra Leoneans in Technology living mainly in North America with a mission to use our experiences to contribute to Sierra Leones economic development in the field of technology.'
+  canonical_url: '[current-page:url]'
+  rights: 'Sierra Leoneans in Technology'
+  robots: 'index, follow'
+  description: 'We are a group of Sierra Leoneans in Technology living mainly in North America with a mission to use our experiences to contribute to Sierra Leones economic development in the field of technology.'
+  og_title: 'Sierra Leoneans in Technology'
+  og_description: 'Sierra Leoneans in Technology'
+  og_site_name: 'Sierra Leoneans in Technology'

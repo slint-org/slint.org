@@ -1,0 +1,82 @@
+uuid: 304228d1-61ad-45f4-aa95-6a50c554b3c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_hero_block
+    - field.field.block_content.mt_hero_block.field_mt_hero_body
+    - field.field.block_content.mt_hero_block.field_mt_hero_image
+    - field.field.block_content.mt_hero_block.field_mt_hero_layout
+    - field.field.block_content.mt_hero_block.field_mt_hero_link
+    - field.field.block_content.mt_hero_block.field_mt_hero_social_icon
+    - field.field.block_content.mt_hero_block.field_mt_hero_teaser
+    - field.field.block_content.mt_hero_block.field_mt_hero_title
+  module:
+    - entity_reference_revisions
+    - link
+    - options
+    - text
+id: block_content.mt_hero_block.default
+targetEntityType: block_content
+bundle: mt_hero_block
+mode: default
+content:
+  field_mt_hero_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_mt_hero_image:
+    type: entity_reference_entity_view
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      view_mode: mt_hero
+      link: false
+    third_party_settings: {  }
+  field_mt_hero_layout:
+    type: list_default
+    weight: 6
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_mt_hero_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_mt_hero_social_icon:
+    type: entity_reference_revisions_entity_view
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  field_mt_hero_teaser:
+    type: text_default
+    weight: 3
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_mt_hero_title:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

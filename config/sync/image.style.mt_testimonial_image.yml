@@ -1,0 +1,24 @@
+uuid: f39dd703-ec67-4192-ad10-88bd795ea4b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.mt_testimonial_image
+  module:
+    - crop
+name: mt_testimonial_image
+label: 'Testimonial Image (750x750)'
+effects:
+  1e8829d8-6840-408d-a1aa-e821a28946b3:
+    uuid: 1e8829d8-6840-408d-a1aa-e821a28946b3
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mt_testimonial_image
+  94071c6b-7163-4183-9805-3d84c27187eb:
+    uuid: 94071c6b-7163-4183-9805-3d84c27187eb
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: __default__

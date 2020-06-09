@@ -1,0 +1,31 @@
+uuid: 57cf3ab9-978e-4170-9b61-04b2272611b9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:91623a70-51d0-4662-b661-6da3f922ab9e'
+  module:
+    - block_content
+    - system
+  theme:
+    - slint
+id: backgroundimagegetinvolvedpagetitle_2
+theme: slint
+region: content_top_highlighted
+weight: -15
+provider: null
+plugin: 'block_content:91623a70-51d0-4662-b661-6da3f922ab9e'
+settings:
+  id: 'block_content:91623a70-51d0-4662-b661-6da3f922ab9e'
+  label: 'Background Image - Get Involved Page Title'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

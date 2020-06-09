@@ -1,0 +1,22 @@
+uuid: 499e568c-36b0-45c1-abdd-b531d5cf47c7
+langcode: en
+status: true
+dependencies: {  }
+name: mt_landscape_image
+label: 'Landscape Image (1110x600)'
+effects:
+  ab62830d-202b-44bd-aef0-9e905300c06c:
+    uuid: ab62830d-202b-44bd-aef0-9e905300c06c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1110
+      height: 600
+      anchor: center-center
+  55179be9-97d4-419a-8e87-0fa7ed44730c:
+    uuid: 55179be9-97d4-419a-8e87-0fa7ed44730c
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: __default__

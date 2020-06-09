@@ -1,0 +1,31 @@
+uuid: 9d132aac-fea7-4a21-ad1e-798b79f5ddb7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0adcce8d-6b31-4cf2-a4d9-8dfa8dff2614'
+  module:
+    - block_content
+    - system
+  theme:
+    - slint
+id: getinvolvedheadercta_2
+theme: slint
+region: banner
+weight: -11
+provider: null
+plugin: 'block_content:0adcce8d-6b31-4cf2-a4d9-8dfa8dff2614'
+settings:
+  id: 'block_content:0adcce8d-6b31-4cf2-a4d9-8dfa8dff2614'
+  label: 'Get Involved Header CTA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /get-involved
+    negate: false
+    context_mapping: {  }

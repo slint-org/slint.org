@@ -1,0 +1,21 @@
+uuid: 24f97440-3e09-43d1-a4e1-9286acb5913b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.mt_canvas_page
+  module:
+    - metatag
+id: node.mt_canvas_page.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: mt_canvas_page
+label: Metatags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

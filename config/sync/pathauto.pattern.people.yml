@@ -1,0 +1,22 @@
+uuid: ba9a7949-0ab4-43ed-86f7-1e7a643426fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: people
+label: People
+type: 'canonical_entities:node'
+pattern: 'about-us/leadership-and-management/[node:title]'
+selection_criteria:
+  39bd99a8-5c8e-484a-b502-51e21e19b34d:
+    id: node_type
+    bundles:
+      mt_team_member: mt_team_member
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 39bd99a8-5c8e-484a-b502-51e21e19b34d
+selection_logic: and
+weight: -5
+relationships: {  }

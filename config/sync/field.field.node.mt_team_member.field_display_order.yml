@@ -1,0 +1,21 @@
+uuid: fbd91eda-e1da-4102-af42-56ca75a225da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_display_order
+    - node.type.mt_team_member
+  module:
+    - options
+id: node.mt_team_member.field_display_order
+field_name: field_display_order
+entity_type: node
+bundle: mt_team_member
+label: 'Display Order'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer
